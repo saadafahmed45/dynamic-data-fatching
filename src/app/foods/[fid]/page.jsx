@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const page = ({ params }) => {
 
-   const id = params.fid;
+   const id = foods(params.fid):
 
    const [foods, setFoods] = useState([]);
 
