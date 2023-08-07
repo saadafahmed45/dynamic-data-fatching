@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const page = ({ params }) => {
 
-   const id = foods(params.fid):
+   const id =params.fid:
 
    const [foods, setFoods] = useState([]);
 
@@ -20,7 +20,7 @@ const page = ({ params }) => {
 
          <h1>i am dynamic route {id}</h1>
 
-         <h1 className='mt-2'>Name: {foods.strCategory}</h1>
+         <h1 className='mt-2'>Name:...{foods.strCategory}</h1>
 
          <h2>Description: {foods.strCategoryDescription}</h2>
 
