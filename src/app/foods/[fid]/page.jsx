@@ -8,7 +8,7 @@ const page = ({ params }) => {
 
    const [foods, setFoods] = useState([]);
 
-   const foodApi = `https://www.themealdb.com/api/json/v1/1/categories.phplookup.php?i=/${id}`
+   const foodApi = `https://www.themealdb.com/api/json/v1/1/categories.phplookup.php?i=${id}`
 
    fetch(foodApi)
       .then(res => res.json())
